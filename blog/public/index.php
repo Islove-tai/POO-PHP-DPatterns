@@ -14,8 +14,6 @@ $app->title = 'Titre de test';
 $app2 = App::getInstance();
 echo 'Le tire : ' .$app2->title;
 
-
-
 var_dump(App::getInstance());
 
 
