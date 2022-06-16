@@ -1,0 +1,16 @@
+a{
+  text-decoration: none;
+}
+
+article a:hover{
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+.dd{
+  background-color:#dee2e6;
+  border-radius:3px;
+  padding: 2px 10px 0px 10px;
+  border:1px solid #dee2ff;
+  margin-bottom: 20px";
+}
