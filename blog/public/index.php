@@ -4,7 +4,7 @@ session_start();
 use App\Autoloader;
 use App\App;
 
-require dirname(__DIR__) . DIRECTORY_SEPARATOR .'app'   . DIRECTORY_SEPARATOR . 'Autoloader.php';
+require dirname(__DIR__) .DIRECTORY_SEPARATOR.'app'   .DIRECTORY_SEPARATOR. 'Autoloader.php';
 Autoloader::register();
 
 $app = App::getInstance();
@@ -13,12 +13,6 @@ $app->title = 'Titre de test';
 
 $app2 = App::getInstance();
 echo 'Le tire : ' .$app2->title;
-echo 'Le tire : ' .$app2->title;
-echo 'Le tire : ' .$app2->title;
-
-var_dump(App::getInstance());
-
-
 
 
 
