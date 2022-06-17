@@ -7,7 +7,7 @@ class Table {
   
   protected static $table;
 
-  /* Ne plus vraiment utile car la resolution static à la volet ne taf pas normale
+  /* Ne plus vraiment utile carFactory la resolution static à la volet ne taf pas normale
   private static function getTable()  {
     if(static::$table === null){
       $class_name = explode('\\', get_called_class());
